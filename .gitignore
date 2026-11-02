@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Secrets & Environment variables
+.env
+*.pem
+*.key
+
+# Testing & Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated runtime logs and tickets
+tools/tickets_created.csv
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+

@@ -1,0 +1,15 @@
+# VoiceOps 2026 Dependencies
+gnani-vachana>=0.9.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.4.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0
+streamlit>=1.35.0
+reportlab>=4.0.0
+pytest>=8.0.0
+
+# Optional LLM API clients
+google-genai>=0.1.0
+openai>=1.0.0
+

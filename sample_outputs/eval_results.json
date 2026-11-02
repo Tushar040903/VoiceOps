@@ -1,0 +1,26 @@
+{
+  "step1_baseline": {
+    "name": "Prompting Baseline (No RAG)",
+    "questions_evaluated": 52,
+    "accuracy": 0.0577,
+    "retrieval_recall": 0.0,
+    "retrieval_precision": 0.0
+  },
+  "step2_rag": {
+    "name": "Knowledge-Grounded RAG",
+    "questions_evaluated": 52,
+    "accuracy": 0.8654,
+    "retrieval_recall": 0.7468,
+    "retrieval_precision": 0.3798,
+    "retrieval_f1": 0.4835,
+    "hit_rate": 0.8654
+  },
+  "step3_conversations": {
+    "name": "Multi-Turn Support Agent with Tools",
+    "turns_evaluated": 96,
+    "decision_accuracy": 0.9792,
+    "tool_call_accuracy": 0.9792,
+    "fact_groundedness": 0.8125,
+    "average_evidence_recall": 0.8681
+  }
+}
